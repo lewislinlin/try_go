@@ -3,9 +3,9 @@ package main
 import (
 	"github.com/sundy-li/html2article"
 )
+
 func main() {
-	//urlStr := "https://www.leiphone.com/news/201602/DsiQtR6c1jCu7iwA.html"
-	urlStr := "https://mainichi.jp/articles/20180912/k00/00m/020/064000c"
+	urlStr := "https://www.leiphone.com/news/201602/DsiQtR6c1jCu7iwA.html"
 	ext, err := html2article.NewFromUrl(urlStr)
 	if err != nil {
 		panic(err)
